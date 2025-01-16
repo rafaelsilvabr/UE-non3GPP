@@ -1,7 +1,6 @@
 ---
     -   hosts: fee5gc, n3iwf
         become: yes
-        remote_user: root
         vars:
             GO_VERSION: "1.14.4"
         tasks:

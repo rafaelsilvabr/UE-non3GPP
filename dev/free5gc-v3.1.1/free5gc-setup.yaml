@@ -1,7 +1,6 @@
 ---
     -   hosts: fee5gc
         become: yes
-        remote_user: root
         vars:
             GTP5G_DIR_INSTALL : "/root/gtp5g"
             GTP5G_BRANCH_VERSION : "v0.8.2" 

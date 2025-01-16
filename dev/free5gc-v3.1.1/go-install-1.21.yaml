@@ -1,7 +1,6 @@
 ---
     -   hosts: labora-UE-non3GPP
         become: yes
-        remote_user: root
         vars:
             GO_VERSION: "1.21.3"
         tasks:

@@ -1,7 +1,6 @@
 ---
     -   hosts: n3iwf
         become: yes
-        remote_user: root
         vars:
             FREE5GC_DIR_INSTALL : "/root/go/src/free5gc"
             NFS_DIR_CONFIG : "/root/go/src/free5gc/config"
